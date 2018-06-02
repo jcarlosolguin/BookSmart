@@ -1,0 +1,17 @@
+{
+  "name": "test-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node start.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "javascript-web-client": "^1.0.0",
+    "mocha": "^5.2.0",
+    "node-rest-client": "^3.1.0"
+  }
+}
