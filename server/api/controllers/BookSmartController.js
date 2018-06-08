@@ -12,18 +12,13 @@ exports.list_all_smartiies = function(req, res) {
   });
 };
 
-
-
-
 exports.create_a_smartii = function(req, res) {
-  setTimeout(function(){
     var new_task = new Smartii(req.body);
     new_task.save(function(err, task) {
       if (err)
         res.send(err);
       res.json(task);
     });
-  }, 3000);
   
 };
 
